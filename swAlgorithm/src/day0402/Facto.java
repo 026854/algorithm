@@ -13,5 +13,14 @@ public class Facto {
 	  public static void main(String[] args) {
 		Facto fa = new Facto();
 		System.out.println(fa.solution(5));
+		
+		int a = 12;
+		String s = "12";
+		
+		System.out.println(s.compareTo("21"));
+		
+		System.out.println(a+1);
+		System.out.println(s+1);
+		
 	}
 }
